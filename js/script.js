@@ -1,7 +1,7 @@
 function solveQuadraticEquation() {
-    var a = parseFloat(document.getElementById("input-a").value);
-    var b = parseFloat(document.getElementById("input-b").value);
-    var c = parseFloat(document.getElementById("input-c").value);
+    const a = parseFloat(document.getElementById("input-a").value);
+    const b = parseFloat(document.getElementById("input-b").value);
+    const c = parseFloat(document.getElementById("input-c").value);
 
     var discriminant = b * b - 4 * a * c;
     var result;
